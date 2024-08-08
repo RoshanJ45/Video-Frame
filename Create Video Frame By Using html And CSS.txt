@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0;">
+    <title>Document</title>
+<style>
+    .video-container{
+        width: 640px;
+        height: 360px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .video-container:hover {
+        animation: fade-in 2s ease-in-out;
+    }
+    @keyframes fade-in{
+        form{opacity: 0.5;}
+        to{opacity: 1;
+    }
+</style>
+</head>
+<body>
+    <div class="video-containert">
+<video controls autoplay>
+<source src="your_video.mp4" type="video/mp4">
+</video>
+    </div>
+</body>
+</html>
